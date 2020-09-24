@@ -1,0 +1,30 @@
+
+
+pip install aniso8601==8.0.0
+pip install attrs==19.3.0
+pip install category-encoders==2.2.2
+pip install click==7.1.2
+pip install Counter==1.0.0
+pip install Flask==1.1.2
+pip install Flask-Cors==3.0.8
+pip install flask-restplus==0.13.0
+pip install imbalanced-learn==0.7.0
+pip install itsdangerous==1.1.0
+pip install Jinja2==2.11.2
+pip install joblib==0.16.0
+pip install jsonschema==3.2.0
+pip install MarkupSafe==1.1.1
+pip install numpy==1.19.0
+pip install pandas==1.0.5
+pip install patsy==0.5.1
+pip install PyDbLite==3.0.4
+pip install pyrsistent==0.16.0
+pip install python-dateutil==2.8.1
+pip install pytz==2020.1
+pip install scikit-learn==0.23.1
+pip install scipy==1.5.1
+pip install six==1.15.0
+pip install sklearn==0.0
+pip install statsmodels==0.11.1
+pip install threadpoolctl==2.1.0
+pip install Werkzeug==0.16.1
