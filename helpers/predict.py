@@ -57,6 +57,6 @@ def predict_treatment(object):
         ]]
     )
     # input = np.array([[15,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]])
-    loaded_model = pickle.load(open('test/sample_test.pkl', 'rb'))
+    loaded_model = pickle.load(open('test/bayes_sample_test.pkl', 'rb'))
     prediction = loaded_model.predict(input)
     return prediction[0]

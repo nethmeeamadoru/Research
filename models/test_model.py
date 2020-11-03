@@ -66,5 +66,7 @@ print('*'*100)
 print('Accuracy of Bayesian Model')
 print(classification_report(y_testDT, bayes_y_pred, target_names=target_names))
 
+print('Prediction: ', bayes_y_pred)
+
 pickle.dump(clf, open('test/sample_test.pkl', 'wb')) # removed test/
 pickle.dump(bayes_clf, open('test/bayes_sample_test.pkl', 'wb')) # removed test/
